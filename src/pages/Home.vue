@@ -1,0 +1,7 @@
+<script setup></script>
+
+<template>
+  <div class="mt-50">
+    <h1 class="d-flex justify-center align-center">Profile Users</h1>
+  </div>
+</template>
