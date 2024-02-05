@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
 import Home from '../pages/Home.vue';
+import Planos from '../pages/Planos.vue';
 import Page404 from '../pages/Page404.vue';
 
 const routes = [
@@ -17,7 +18,7 @@ const routes = [
   {
     path: '/planos',
     name: 'Planos',
-    component: Home,
+    component: Planos,
   },
   {
     path: '/contato',
