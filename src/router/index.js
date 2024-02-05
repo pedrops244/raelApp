@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
 import Home from '../pages/Home.vue';
+import Consultoria from '../pages/Consultoria.vue';
+import Contato from '../pages/Contato.vue';
 import Planos from '../pages/Planos.vue';
 import Page404 from '../pages/Page404.vue';
 
@@ -13,7 +15,7 @@ const routes = [
   {
     path: '/consultoria',
     name: 'Consultoria',
-    component: Home,
+    component: Consultoria,
   },
   {
     path: '/planos',
@@ -23,7 +25,7 @@ const routes = [
   {
     path: '/contato',
     name: 'Contato',
-    component: Home,
+    component: Contato,
   },
   {
     path: '/:pathMatch(.*)',
