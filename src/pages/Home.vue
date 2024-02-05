@@ -2,7 +2,7 @@
 
 <template>
   <v-container class="d-flex text-center justify-center">
-    <v-card width="860" height="500">
+    <v-card width="860" height="500" elevation="5">
       <p class="text-h1 pa-5">
         Coach Rael
         <v-divider class="border-opacity-50"></v-divider>
