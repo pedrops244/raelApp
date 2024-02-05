@@ -15,8 +15,8 @@ import ThisFooter from './components/Footer.vue';
 </template>
 <style>
 .background {
-  background-image: url('./images/background-home.jpg');
-  background-size: cover;
+  background-image: url('./images/background-home.jpg') !important;
+  background-size: cover !important;
   background-position: center;
   text-align: center;
 }
