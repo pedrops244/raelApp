@@ -45,7 +45,7 @@ import HomeCol from '@/components/HomeCol.vue';
       </v-col>
       <v-col cols="12">
         <p class="text-h3 mb-2 text-uppercase text-white">Depoimentos</p>
-        <v-carousel hide-delimiters>
+        <v-carousel hide-delimiters show-arrows="hover">
           <Carrousel
             name="Pedro Souza"
             text="Lorem ipsum dolor sit amet consectetur
@@ -70,8 +70,7 @@ import HomeCol from '@/components/HomeCol.vue';
           placeat nemo molestias, Lorem ipsum dolor sit amet consectetur
           adipisicing elit. Blanditiis consectetur aliquid placeat velit asperiores minus deserunt
           maxime, dolor similique, Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Blanditiis consectetur aliquid placeat velit asperiores minus deserunt
-          maxime, dolor similique"
+          adipisicing elit."
           />
         </v-carousel>
       </v-col>

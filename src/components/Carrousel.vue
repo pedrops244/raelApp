@@ -3,11 +3,11 @@
     <v-card
       height="100%"
       class="pa-8 ma-5 d-flex justify-center align-center flex-column"
-      variant="tonal"
+      variant="text"
       color="white"
-      elevation="5"
+      elevation="3"
     >
-      <p class="font-weight-medium text-h6 font-italic">"{{ props.text }}"</p>
+      <p class="font-weight-medium font-italic">"{{ props.text }}"</p>
       <p class="text-subtitle-2 mt-4 text-red">{{ props.name }}</p>
     </v-card>
   </v-carousel-item>
