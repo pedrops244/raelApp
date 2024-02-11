@@ -1,4 +1,5 @@
 <script setup>
+import Carrousel from '@/components/Carrousel.vue';
 import HomeCol from '@/components/HomeCol.vue';
 </script>
 
@@ -41,6 +42,38 @@ import HomeCol from '@/components/HomeCol.vue';
         <v-card>
           <v-img cover src="../images/other-home-image.png"></v-img>
         </v-card>
+      </v-col>
+      <v-col cols="12">
+        <p class="text-h3 mb-2 text-uppercase text-white">Depoimentos</p>
+        <v-carousel hide-delimiters>
+          <Carrousel
+            name="Pedro Souza"
+            text="Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Blanditiis consectetur aliquid placeat velit asperiores minus deserunt
+          maxime, dolor similique, incidunt iusto expedita nisi! Repudiandae aspernatur non, earum
+          placeat nemo molestias."
+          />
+          <Carrousel
+            name="Juan Gustavo"
+            text="Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Blanditiis consectetur aliquid placeat velit asperiores minus deserunt
+          maxime, dolor similique, incidunt iusto expedita nisi! Repudiandae aspernatur non, earum
+          placeat nemo molestias, Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Blanditiis consectetur aliquid placeat velit asperiores minus deserunt
+          maxime, dolor similique."
+          />
+          <Carrousel
+            name="Janderson Vagner"
+            text="Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Blanditiis consectetur aliquid placeat velit asperiores minus deserunt
+          maxime, dolor similique, incidunt iusto expedita nisi! Repudiandae aspernatur non, earum
+          placeat nemo molestias, Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Blanditiis consectetur aliquid placeat velit asperiores minus deserunt
+          maxime, dolor similique, Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Blanditiis consectetur aliquid placeat velit asperiores minus deserunt
+          maxime, dolor similique"
+          />
+        </v-carousel>
       </v-col>
     </v-row>
   </v-container>
