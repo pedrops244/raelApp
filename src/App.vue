@@ -4,18 +4,16 @@ import ThisFooter from './components/Footer.vue';
 </script>
 <template>
   <v-app>
+    <ThisMenu />
     <v-main class="background">
-      <ThisMenu />
-      <v-container>
-        <router-view></router-view>
-      </v-container>
+      <router-view></router-view>
     </v-main>
     <ThisFooter />
   </v-app>
 </template>
 <style>
 .background {
-  background-image: url('./images/background-planos.jpg');
+  background-image: url('./images/background-home.jpg');
   background-size: cover;
   background-position: center;
   text-align: center;
