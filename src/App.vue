@@ -4,8 +4,8 @@ import ThisFooter from './components/Footer.vue';
 </script>
 <template>
   <v-app>
-    <ThisMenu />
     <v-main class="background">
+      <ThisMenu />
       <router-view></router-view>
     </v-main>
     <ThisFooter />
