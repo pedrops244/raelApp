@@ -5,8 +5,8 @@ import ThisFooter from './components/Footer.vue';
 <template>
   <v-app>
     <v-main class="background">
+      <ThisMenu />
       <v-container>
-        <ThisMenu />
         <router-view></router-view>
       </v-container>
     </v-main>
@@ -15,7 +15,7 @@ import ThisFooter from './components/Footer.vue';
 </template>
 <style>
 .background {
-  background-image: url('./images/background-home.jpg');
+  background-image: url('./images/background-planos.jpg');
   background-size: cover;
   background-position: center;
   text-align: center;
