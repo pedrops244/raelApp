@@ -13,9 +13,9 @@ import ThisFooter from './components/Footer.vue';
 </template>
 <style>
 .background {
-  background-image: url('./images/background-home.jpg');
+  background-image: url('./images/teste1.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: left;
   text-align: center;
 }
 </style>

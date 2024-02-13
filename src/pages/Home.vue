@@ -45,7 +45,7 @@ import HomeCol from '@/components/HomeCol.vue';
       </v-col>
       <v-col cols="12">
         <p class="text-h3 mb-2 text-uppercase text-white">Depoimentos</p>
-        <v-carousel hide-delimiters show-arrows="hover">
+        <v-carousel hide-delimiters>
           <Carrousel
             name="Pedro Souza"
             text="Lorem ipsum dolor sit amet consectetur
