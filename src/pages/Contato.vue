@@ -5,15 +5,15 @@
     <v-row>
       <v-col cols="12">
         <v-card
-          class="text-red pa-3 ma-3 d-flex align-center flex-column justify-center"
+          class="text-red pa-2 mt-3 d-flex align-center flex-column justify-center"
           variant="outlined"
           elevation="5"
           height="65vh"
         >
           <p class="letter-title text-uppercase">Entre em contato</p>
           <p class="mt-3 text-white text-button">
-            Se você tiver dúvidas ou quiser bater um papo comigo antes de fechar um plano, utilize
-            um dos canais abaixo.
+            Se você tiver dúvidas ou quiser bater um papo comigo <br />
+            antes de fechar um plano, utilize um dos canais abaixo.
           </p>
           <v-card-actions>
             <v-btn
@@ -38,10 +38,8 @@
 </template>
 <style>
 .letter-title {
-  color: #ffffff;
-  font-family: 'Mohave', Sans-serif;
-  font-size: 58px;
-  letter-spacing: -2px;
-  font-weight: 400;
+  font-weight: 300;
+  font-family: 'Portrait Text', Georgia, Times, serif;
+  font-size: 4rem;
 }
 </style>
