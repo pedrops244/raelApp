@@ -12,7 +12,7 @@ import HomeCol from '@/components/HomeCol.vue';
         </v-card>
       </v-col>
       <v-col cols="12" md="6" class="d-flex align-center">
-        <v-card class="pa-3 ma-3">
+        <v-card class="pa-1 ma-3">
           <v-img cover src="../images/coach-rael.jpg"> </v-img>
           <p class="text-subtitle-2 mt-4">
             Avaliar, organizar, prescrever e orientar a prática de atividades físicas estruturadas
@@ -44,8 +44,8 @@ import HomeCol from '@/components/HomeCol.vue';
         </v-card>
       </v-col>
       <v-col cols="12">
-        <p class="text-h3 mb-2 text-uppercase text-white">Depoimentos</p>
-        <v-carousel hide-delimiters>
+        <p class="text-h3 font-weight-medium mt-3 text-uppercase text-white">Depoimentos</p>
+        <v-carousel hide-delimiters cycle>
           <Carrousel
             name="Pedro Souza"
             text="Lorem ipsum dolor sit amet consectetur
