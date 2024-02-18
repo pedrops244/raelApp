@@ -1,12 +1,21 @@
 <template>
   <v-col cols="12" sm="6" md="4" lg="4">
-    <v-card flat class="border-b text-center" color="primary" elevation="10">
+    <v-card class="border-b text-center" color="primary" elevation="10">
       <v-card-text class="text-uppercase text-h6">
         <div>
           {{ props.text }}
         </div>
       </v-card-text>
-      <v-img height="50vh" class="align-end text-black" src="../images/card-photo.jpg" cover>
+      <v-img
+        height="50vh"
+        class="align-end text-black"
+        src="../images/card-photo.jpg"
+        cover
+        :style="{ transform: hover ? 'scale(1.02)' : 'scale(1)' }"
+        transition="scale-transition"
+        @mouseenter="hover = true"
+        @mouseleave="hover = false"
+      >
         <v-card-title class="text-h4 font-weight-bold">R$ {{ props.title }}</v-card-title>
       </v-img>
       <v-list lines="one">
@@ -20,7 +29,10 @@
     </v-card>
   </v-col>
 </template>
+
 <script setup>
+import { ref } from 'vue';
+
 const props = defineProps({
   title: {
     type: String,
@@ -32,6 +44,9 @@ const props = defineProps({
     default: '',
   },
 });
+
+const hover = ref(false);
+
 const descriptions = [
   'Planilha personalizada de treino;',
   'Vídeos dos exercícios;',
