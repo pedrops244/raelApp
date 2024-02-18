@@ -1,6 +1,6 @@
 <template>
   <v-col cols="12" sm="6" md="4" lg="4">
-    <v-card flat class="border-b" color="primary" elevation="10">
+    <v-card flat class="border-b text-center" color="primary" elevation="10">
       <v-card-text class="text-uppercase text-h6">
         <div>
           {{ props.text }}
