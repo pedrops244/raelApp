@@ -7,7 +7,7 @@
         </div>
       </v-card-text>
       <v-img
-        height="50vh"
+        height="52vh"
         class="align-end text-black"
         src="../images/card-photo.jpg"
         cover
@@ -16,7 +16,10 @@
         @mouseenter="hover = true"
         @mouseleave="hover = false"
       >
-        <v-card-title class="text-h4 font-weight-bold">R$ {{ props.title }}</v-card-title>
+        <v-card-title class="font-weight-bold text-h4">
+          <span class="text-h5" style="font-size: smaller; color: #ff0000">R$</span>
+          <span style="font-size: larger">{{ props.title }}</span>
+        </v-card-title>
       </v-img>
       <v-list lines="one">
         <v-list-item v-for="desc in descriptions" :key="desc" :subtitle="desc">
