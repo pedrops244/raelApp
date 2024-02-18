@@ -24,7 +24,7 @@
 
     <v-divider></v-divider>
 
-    <div>{{ new Date().getFullYear() }} — <strong>CoachRael</strong></div>
+    <div>{{ new Date().getFullYear() }} — <strong>Israel Hidequel</strong></div>
   </v-footer>
 </template>
 
