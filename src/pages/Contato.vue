@@ -17,19 +17,23 @@
           </p>
           <v-card-actions>
             <v-btn
-              class="mx-4"
-              icon="mdi-whatsapp"
-              variant="text"
+              class="mx-4 px-3"
+              prepend-icon="mdi-whatsapp"
+              variant="elevated"
+              color="secondary"
               target="_blank"
               href="https://api.whatsapp.com/send/?phone=5521971096037&text&type=phone_number&app_absent=0"
-            ></v-btn>
+              >WhatsApp</v-btn
+            >
             <v-btn
-              class="mx-4"
-              icon="mdi-instagram"
-              variant="text"
+              class="mx-4 px-3"
+              prepend-icon="mdi-instagram"
+              variant="elevated"
+              color="secondary"
               target="_blank"
               href="https://www.instagram.com/israelhidequel/"
-            ></v-btn>
+              >Instagram</v-btn
+            >
           </v-card-actions>
         </v-card>
       </v-col>
