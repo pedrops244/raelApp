@@ -9,7 +9,7 @@
       <v-img
         height="52vh"
         class="align-end text-black"
-        src="../images/card-photo.jpg"
+        :src="props.img"
         cover
         :style="{ transform: hover ? 'scale(1.02)' : 'scale(1)' }"
         transition="scale-transition"
@@ -45,6 +45,10 @@ const props = defineProps({
   text: {
     type: String,
     default: '',
+  },
+  img: {
+    type: String,
+    default: '../images/preco-amarelo.jpg',
   },
 });
 
