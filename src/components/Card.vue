@@ -48,7 +48,7 @@ const props = defineProps({
   },
   img: {
     type: String,
-    default: '../images/preco-amarelo.jpg',
+    default: '',
   },
 });
 
